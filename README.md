@@ -1,2 +1,2 @@
 #Django
-Django的的学习记录
+Django学习记录
