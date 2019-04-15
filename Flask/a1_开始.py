@@ -4,7 +4,8 @@ from flask import Flask,request
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def index():
+
     user_agent = request.headers.get('User-Agent')
     return '<h1>Hellow Zrq!</h1>' \
            '<p>Your Browser is %s</p>' % user_agent
