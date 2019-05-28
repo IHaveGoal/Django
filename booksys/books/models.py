@@ -18,14 +18,14 @@ class Book(models.Model):
     title = models.CharField(max_length=64,null=False,unique=True)
     publisher = models.ForeignKey(to="Publisher",on_delete=models.CASCADE)
 
-    def __str__(self):
-        return "<Book Object:{}",format(self.title)
+    # def __str__(self):
+    #     return "<Book Object:{}",format(self.title)
 
 # 作者
 class Author(models.Model):
     id = models.AutoField(primary_key=True)# 自增的ID主键
     name = models.CharField(max_length=64,null=False,unique=True)
     book = models.ManyToManyField(to="Book")
-
-    def __str__(self):
-        return "<Author Object:{}",format(self.name)
+    #
+    # def __str__(self):
+    #     return "<Author Object:{}",format(self.name)

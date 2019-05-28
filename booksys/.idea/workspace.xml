@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecacadc-1166-4d5f-ad17-36563464ff50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/zrq_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Book/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Book/Book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/app_book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Book/app_book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Book/templates/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/booksys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/publisher_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/publisher_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../publish/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../publish/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,100 +21,174 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/booksys$orm1.coverage" NAME="orm1 Coverage Results" MODIFIED="1558453686863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zrq@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zrq@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zrq@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zrq: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1530147731">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="8" />
+          <entry key="books_author" value="3" />
+          <entry key="books_author_book" value="1" />
+          <entry key="books_book" value="2" />
+          <entry key="books_publisher" value="2" />
+          <entry key="css" value="2" />
+          <entry key="html" value="20" />
           <entry key="js" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="19" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="8" />
+          <entry key="HTML" value="20" />
           <entry key="JavaScript" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="19" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="55" />
-          <entry key="py" value="509" />
+          <entry key="cell" value="16" />
+          <entry key="html" value="77" />
+          <entry key="py" value="712" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="55" />
-          <entry key="Python" value="509" />
+          <entry key="HTML" value="77" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="712" />
+          <entry key="Scratch" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orm1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/books/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-                <element signature="e#85#110#0" />
-                <element signature="e#156#316#0" />
-                <element signature="e#445#750#0" />
-                <element signature="e#530#699#0" />
-                <element signature="e#1400#2169#0" />
-                <element signature="e#1474#1868#0" />
-                <element signature="e#1615#1622#0" />
-                <element signature="e#1953#2117#0" />
-                <element signature="e#2642#3348#0" />
-                <element signature="e#3386#4401#0" />
-                <element signature="e#4441#4487#0" />
-                <element signature="e#6547#6628#0" />
-                <element signature="e#6667#6676#0" />
-              </folding>
+        <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_book">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/book_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="75" column="87" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
+        <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_publisher">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/publisher_list_old.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_author">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/publisher_list.html">
+        <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_author_book">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/books/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="76" column="67" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+            <state relative-caret-position="253">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/t_text.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2415">
+              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Person</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Author</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -131,11 +198,15 @@
       <list>
         <option value="$PROJECT_DIR$/booksys/__init__.py" />
         <option value="$PROJECT_DIR$/booksys/settings.py" />
-        <option value="$PROJECT_DIR$/books/models.py" />
-        <option value="$PROJECT_DIR$/books/views.py" />
-        <option value="$PROJECT_DIR$/booksys/urls.py" />
-        <option value="$PROJECT_DIR$/templates/publisher_list.html" />
+        <option value="$PROJECT_DIR$/templates/author_list.html" />
         <option value="$PROJECT_DIR$/templates/book_list.html" />
+        <option value="$PROJECT_DIR$/templates/publisher_list.html" />
+        <option value="E:/Python/04（第四部分）：django进阶/day65/mysiteday65/mysiteday65/urls.py" />
+        <option value="$PROJECT_DIR$/booksys/urls.py" />
+        <option value="$PROJECT_DIR$/templates/t_text.html" />
+        <option value="$PROJECT_DIR$/books/views.py" />
+        <option value="$PROJECT_DIR$/books/models.py" />
+        <option value="$PROJECT_DIR$/orm1.py" />
       </list>
     </option>
   </component>
@@ -146,10 +217,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="27" />
-    <option name="width" value="1249" />
-    <option name="height" value="918" />
+    <option name="x" value="529" />
+    <option name="y" value="99" />
+    <option name="width" value="1371" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,27 +246,25 @@
               <item name="booksys" type="462c0819:PsiDirectoryNode" />
               <item name="booksys" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="booksys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="booksys" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Python/03（第三部分）：django基础/day64/mysiteday64" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="E:/Python/04（第四部分）：django进阶/day69/ormday69" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Victor\Documents\GitHub\Django\booksys\templates" />
+      <recent name="D:\Users\Victor\Documents\GitHub\Django\booksys\books" />
       <recent name="D:\Users\Victor\Documents\GitHub\Django\booksys" />
     </key>
   </component>
@@ -210,7 +280,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.orm1">
+    <configuration name="orm1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="booksys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orm1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="booksys" type="Python.DjangoServer" factoryName="Django server">
       <module name="booksys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +327,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.booksys" />
+      <item itemvalue="Python.orm1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.orm1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -250,30 +351,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="27" width="1249" height="918" extended-state="0" />
+    <frame x="529" y="99" width="1371" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2001682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17696415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32950193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3956466" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32950193" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3290653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.19679634" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,64 +402,8 @@
     <entry file="file://$PROJECT_DIR$/static/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/booksys/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booksys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/add_publisher.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/edit_author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <element signature="e#85#110#0" />
-            <element signature="e#156#316#0" />
-            <element signature="e#445#750#0" />
-            <element signature="e#530#699#0" />
-            <element signature="e#1400#2169#0" />
-            <element signature="e#1474#1868#0" />
-            <element signature="e#1615#1622#0" />
-            <element signature="e#1953#2117#0" />
-            <element signature="e#2642#3348#0" />
-            <element signature="e#3386#4401#0" />
-            <element signature="e#4441#4487#0" />
-            <element signature="e#6547#6628#0" />
-            <element signature="e#6667#6676#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" column="87" selection-start-line="75" selection-start-column="87" selection-end-line="75" selection-end-column="87" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/publisher_list_old.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -366,10 +412,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_book_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_book.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_author.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author_list_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="76" column="118" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/publisher_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="76" column="67" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+        <state relative-caret-position="292">
+          <caret line="75" column="123" selection-start-line="75" selection-start-column="123" selection-end-line="75" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3933" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/booksys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/04（第四部分）：django进阶/day65/mysiteday65/mysiteday65/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" selection-start-line="40" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7659" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/04（第四部分）：django进阶/day65/mysiteday65/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="275" column="53" lean-forward="true" selection-start-line="264" selection-end-line="275" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booksys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/493a723d-8b8d-4c2b-908a-2c710cd36c64/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/t_text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#85#110#0" />
+            <element signature="e#156#316#0" />
+            <element signature="e#445#750#0" />
+            <element signature="e#530#699#0" />
+            <element signature="e#2642#3348#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_publisher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_author">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_author_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://493a723d-8b8d-4c2b-908a-2c710cd36c64/schema/zrq/table/books_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

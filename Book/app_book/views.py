@@ -148,6 +148,7 @@ def edit_book(request):
 
 
 def test(request):
-    print(request.GET)
-    print(request.GET.get("id"))
-    return HttpResponse("OK")
+
+    return HttpResponse("口哥说一个~")
+
+

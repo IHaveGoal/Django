@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eebc95c4-2386-4da4-8c8f-df30b7c4fb08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/.idea/zrq_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/book/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zrq_1/zrq_1/wsgi.py" beforeDir="false" />
-    </list>
+    <list default="true" id="eebc95c4-2386-4da4-8c8f-df30b7c4fb08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +12,7 @@
     <session id="28561472">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -179,7 +159,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="483" />
     <option name="y" value="45" />
     <option name="width" value="1260" />
@@ -284,7 +264,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="620" y="44" width="1260" height="972" extended-state="0" />
+    <frame x="483" y="45" width="1260" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.215" />
@@ -292,7 +272,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40621266" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40621266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

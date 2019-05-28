@@ -221,13 +221,6 @@ def edit_author(request):
     return render(request, "edit_author.html", {"book_list": ret, "author": edit_author_obj})
 
 
-
-def test(request):
-    print(request.GET)
-    print(request.GET.get("id"))
-    return HttpResponse("OK")
-
-
 # 书复习代码
 def book_test(request):
     # 查询所有的书籍
@@ -253,6 +246,57 @@ def book_test(request):
         publisher=publisher_obj
     )
     print(new_book_obj)
-
-
     return HttpResponse("o98k")
+
+# 测试用类
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def run(self):
+        return '{} 今天好开心,跑了三米'.format(self)
+
+    def __str__(self):
+        return '<Person-object {}>'.format(self.name)
+
+# 模板语言测试相关
+def template_test(request):
+    file_size = 123456789876543
+    from datetime import datetime
+    now = datetime.now()
+    print("=" * 80)
+    print(now)
+    print("=" * 80)
+
+    a_html = "<a href='http://www.sogo.com'>我是后端传过来的a标签</a>"
+    script_html = "<script>for(var i=0;i<100;i++){alert(123);}</script>"
+
+    p_str = """
+        在苍茫的大海上，狂风卷积着乌云，在乌云和大海之间，海燕像黑色的闪电，在高傲地飞翔。
+    """
+
+    name_list = ['张三', '李四', '王五','小黑']
+    name_list2 = [['张三0', '李四0', '王五0'], ['张三1', '李四1', '王五1']]
+
+    name_dict = {'name1': '小黑', 'name2': '长江', 'name3': '诸葛亮'}
+    p1 = Person('小白', 29)
+    p2 = Person('小黑', 20)
+    return render(
+        request,
+        't_text.html',
+        {
+            'name': '王镇', 'age': 18,
+            'name_list': name_list,
+            'name_list2': name_list2,
+            'name_dict': name_dict,
+            'p1': p1,
+            'p2': p2,
+            "file_size": file_size,
+            "now": now,
+            "a_html": a_html,
+            "script_html": script_html,
+            "p_str": p_str
+        }
+    )

@@ -36,6 +36,7 @@ urlpatterns = [
     url(r'^edit_author/', views.edit_author),  # 编辑作者
 
 
-    url(r'^test/', views.test),
     url(r'^book_test/', views.book_test),
+    url(r'^t_test/', views.template_test),
+
 ]
