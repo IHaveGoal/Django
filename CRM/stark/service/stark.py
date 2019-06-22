@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from django.urls import path
+from django.urls import path, re_path
 from django.shortcuts import HttpResponse, redirect, render
 from django.urls import reverse
 from django.db.models import Q
@@ -34,13 +34,12 @@ class ShowList(object):
             params = copy.deepcopy(self.request.GET)
             # 当前键值
             cid=self.request.GET.get(filter_field,0)
-
+            # 获取字段对象
             filter_field_obj=self.config.model._meta.get_field(filter_field)
             print(type(filter_field_obj))
-            print(type(filter_field_obj.rel_class))
 
             if isinstance(filter_field_obj,ForeignKey) or isinstance(filter_field_obj,ManyToManyField):
-                 data_list = filter_field_obj.rel_class.objects.all() # 【publish1,publish2...】
+                 data_list = filter_field_obj.queryset.objects.all() # 【publish1,publish2...】
             else:
                  data_list = self.config.model.objects.all().values("pk",filter_field)
                  print("data_list",data_list)
@@ -240,28 +239,25 @@ class ModelStark(object):
         form = ModelFormDemo()
 
         for bfield in form:
-            print(bfield.field) # 字段对象
-            print("name",bfield.name)  # 字段名（字符串）
-            print(type(bfield.field)) # 字段类型
+            # bfield.field才是字段对象，bfield.name字段名
             from django.forms.models import ModelChoiceField
+            # 判断是什么字段类型
             if isinstance(bfield.field,ModelChoiceField):
                 bfield.is_pop=True
 
                 print("=======>",bfield.field.queryset.model) # 一对多或者多对多字段的关联模型表
-
                 related_model_name=bfield.field.queryset.model._meta.model_name
                 related_app_label=bfield.field.queryset.model._meta.app_label
-
+                # 反向解析+号对应的添加url
                 _url=reverse("%s_%s_add"%(related_app_label,related_model_name))
                 bfield.url=_url+"?pop_res_id=id_%s"%bfield.name
-
-
+        # 新增数据
         if request.method=="POST":
             form = ModelFormDemo(request.POST)
             if form.is_valid():
                 obj=form.save()
                 pop_res_id=request.GET.get("pop_res_id")
-
+                # + 号弹出页面，带有pop_res_id参数，接受post请求数据，走if后面语句，将数据传给父页面，关闭子页面
                 if pop_res_id:
                     res ={"pk":obj.pk,"text":str(obj),"pop_res_id":pop_res_id}
                     return render(request,"pop.html",{"res":res})
@@ -322,8 +318,8 @@ class ModelStark(object):
         app_label = self.model._meta.app_label
 
         temp.append(path("add/", self.add_view, name="%s_%s_add" % (app_label, model_name)))
-        temp.append(path("(\d+)/delete/", self.delete_view, name="%s_%s_delete" % (app_label, model_name)))
-        temp.append(path("(\d+)/change/", self.change_view, name="%s_%s_change" % (app_label, model_name)))
+        temp.append(re_path("(\d+)/delete/", self.delete_view, name="%s_%s_delete" % (app_label, model_name)))
+        temp.append(re_path("(\d+)/change/", self.change_view, name="%s_%s_change" % (app_label, model_name)))
         temp.append(path("", self.list_view, name="%s_%s_list" % (app_label, model_name)))
 
         return temp
